@@ -10,17 +10,22 @@
     margin-bottom: 0;
 }
 
+.navbar li a{
+    color: #002b57;
+}
+
 .ocean-brand{
     margin-right: 100px;
 }
 
 .sign-btn{
     border: 2px solid #008cff;
-    color: cornflowerblue;
+    color: #008cff;
 }
 
 section{
     padding:50px 0 50px 0;
+    margin-top: 0;
 }
 
 .hero{
@@ -41,6 +46,7 @@ section{
 }
 
 #get{
+    line-height: 30px;
     color: #008cff;
 }
 
@@ -63,5 +69,20 @@ button span img{
     width: 5%;
     margin-left: 0;    
 }
+
+main p{
+    color: slategrey;
+}
+
+.main-top, .main-mid-one, .main-bot{
+    background-color:#f2f6fa;
+}
+
+.main-top .row{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
 
 
