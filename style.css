@@ -41,7 +41,7 @@ section{
 
 .hero p{
     font-size: 18px;
-    color: rgb(224, 224, 228);
+    color: #f2f6fa;
     line-height: 30px;
 }
 
@@ -83,7 +83,7 @@ main p{
     margin-bottom: 50px;
 }
 
-#opt{
+.subtitle{
     margin-bottom: 50px;
     font-size: 18px;
 }
@@ -98,7 +98,19 @@ main p{
     color: slategrey;
 }
 
+.carousel{
+    max-width: 80%;
+    margin: auto;
+    padding:0 100px;
+}
 
+.slide img{
+   max-width: 100%;
+}
+
+.main-mid-one h5{
+    margin-top: 30px;
+}
 
 
 
