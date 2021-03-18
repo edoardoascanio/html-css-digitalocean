@@ -1,0 +1,22 @@
+*{  
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar-mytheme{
+    background-color: white;
+}
+
+.navbar-brand{
+    margin-right: 100px;
+}
+
+.sign-btn{
+    border: 1px solid cornflowerblue;
+    text-decoration-color: cornflowerblue;
+}
+
+h1{
+    color: #002b57;
+}
