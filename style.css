@@ -2,21 +2,68 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    color: #002b57;
 }
 
 .navbar-mytheme{
     background-color: white;
+    margin-bottom: 0;
 }
 
-.navbar-brand{
+.ocean-brand{
     margin-right: 100px;
 }
 
 .sign-btn{
-    border: 1px solid cornflowerblue;
-    text-decoration-color: cornflowerblue;
+    border: 2px solid #008cff;
+    color: cornflowerblue;
 }
 
-h1{
-    color: #002b57;
+section{
+    padding:50px 0 50px 0;
 }
+
+.hero{
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    font-size: 52px;
+    color: white;
+}
+
+.hero p{
+    font-size: 18px;
+    color: rgb(224, 224, 228);
+    line-height: 30px;
+}
+
+#get{
+    color: #008cff;
+}
+
+.hero input{
+    margin-bottom: 10px;
+}
+
+.panel-body p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.panel-body button{
+    position: relative;
+}
+
+button span img{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 5%;
+    margin-left: 0;
+    
+}
+
+
