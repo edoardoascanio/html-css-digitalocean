@@ -30,8 +30,8 @@ section{
 
 .hero{
     background-image: url(img/bg-banner-home.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: top;  
 }
 
 .hero h1{
@@ -78,13 +78,26 @@ main p{
     background-color:#f2f6fa;
 }
 
-.main-top .row{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.main-top-one .row{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.main-top-two p{
+
+#opt{
+    margin-bottom: 50px;
     font-size: 18px;
 }
+
+.main-top-two li {
+    list-style: none;
+    padding: 10px;
+    border-left: 1px solid slategrey;
+}
+
+.main-top-two li a{
+    color: slategrey;
+}
+
 
 
 
