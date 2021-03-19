@@ -1,9 +1,7 @@
 .center-container{
     width: 70%;
     margin: auto;
-    content: "";
-    display: table;
-    clear: both;
+    
 }
 
 .row::after{
