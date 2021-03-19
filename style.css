@@ -130,7 +130,7 @@ main p{
     background: linear-gradient(0deg, rgba(0,43,87,1) 0%, rgba(4,59,173,1) 59%, rgba(1,60,183,1) 100%);
 }
 
-.main-bot-one strong,.footer-top strong, .main-bot-one td{
+.main-bot-one strong,.footer-top strong, .main-bot-one td,.footer-bot strong{
     color: white;
 }
 
@@ -161,4 +161,75 @@ main p{
 .panel-main-bot h5{
     margin-bottom: 30px;
 }
+
+.footer-bot{
+    width: 100%;
+    background-color:#01163b;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-bot span,.footer-bot p{
+    margin-top: 10px;
+    color: lightgray;
+}
+
+.icon img{
+    float: left;
+    width: 6%;
+    margin: 5px;
+}
+
+.footer-bot li{
+    list-style: none;
+    color: lightgrey;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.footer-btn{
+    float: right;
+}
+
+.shark-btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:#0069a6;
+    background-image: url(img/shark.png);
+    background-position: center; 
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    position: relative; 
+}
+
+.shark-btn img{
+    width: 40%;
+    position: absolute;
+    top:-10px;
+    right:-10px;
+}
+
+.speech{
+    display: inline-block;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color:lightgrey;
+    box-shadow: 1px solid black;
+    position: relative;
+}
+
+.glyphicon-triangle-right{
+    color: white;
+    position: absolute;
+    right:-10px;
+
+}
+
+
+
 
