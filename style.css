@@ -28,6 +28,10 @@ section{
     margin-top: 0;
 }
 
+a{
+    color:#008cff;
+}
+
 .hero{
     background-image: url(img/bg-banner-home.jpg);
     background-size: 110%;
@@ -54,7 +58,7 @@ section{
     margin-bottom: 10px;
 }
 
-#panel-p,.panel-body a{
+.panel-body p,.panel-body a{
     font-size: 10px;
     margin-top: 5px;
 }
@@ -122,11 +126,16 @@ main p{
 }
 
 .main-bot-one,.footer-top{
-    background-color: darkblue;
+    background: rgb(0,43,87);
+    background: linear-gradient(0deg, rgba(0,43,87,1) 0%, rgba(4,59,173,1) 59%, rgba(1,60,183,1) 100%);
 }
 
-.main-bot-one strong,.footer-top strong{
+.main-bot-one strong,.footer-top strong, .main-bot-one td{
     color: white;
+}
+
+.table{
+    margin-top: 20px;
 }
 
 .panel-main-bot{
@@ -143,6 +152,10 @@ main p{
 .panel-main-bot p{
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.panel-main-bot a{
+    font-size: 12px;
 }
 
 .panel-main-bot h5{
