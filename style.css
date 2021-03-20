@@ -19,13 +19,13 @@
 }
 
 .sign-btn{
-    border: 2px solid #008cff;
+    border: 1px solid #008cff;
     color: #008cff;
+    margin-top: 5px;
 }
 
 section{
     padding:50px 0 50px 0;
-    margin-top: 0;
 }
 
 a{
@@ -189,13 +189,19 @@ main p{
 }
 
 .footer-btn{
+    /* position: fixed; */
+    z-index: 2;
+}
+
+.shark-button{
     float: right;
 }
 
-.shark-btn{
+.shark-icon{
     display: inline-block;
     width: 60px;
     height: 60px;
+    border: none;
     border-radius: 5px;
     background-color:#0069a6;
     background-image: url(img/shark.png);
@@ -205,7 +211,7 @@ main p{
     position: relative; 
 }
 
-.shark-btn img{
+.shark-icon img{
     width: 40%;
     position: absolute;
     top:-10px;
@@ -227,7 +233,6 @@ main p{
     color: white;
     position: absolute;
     right:-10px;
-
 }
 
 
