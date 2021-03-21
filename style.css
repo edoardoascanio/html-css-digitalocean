@@ -191,7 +191,7 @@ main p{
 
 .shark-button{
     margin-top: 160px;
-    margin-left: 160px;
+    margin-left: 140px;
 }
 
 .shark-icon{
@@ -220,9 +220,10 @@ main p{
     width: 70%;
     border-radius: 5px;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 15px;
     background-color:white;
     border-bottom: 1px solid grey;
+    vertical-align: middle;
     position: relative;
 }
 
