@@ -139,6 +139,7 @@ main p{
 }
 
 .panel-main-bot{
+    max-width: 100%;
     margin-top: 50px;
     padding:20px 0 50px 0;
 }
@@ -191,7 +192,7 @@ main p{
 
 .shark-button{
     margin-top: 160px;
-    margin-left: 140px;
+    margin-left: 860px;
 }
 
 .shark-icon{
@@ -234,6 +235,78 @@ main p{
     right:-10px;
 }
 
+@media all and (max-width: 767px){
+    .row{
+        width: auto;
+    }
 
+    .center-container{
+        width: 100%;  
+    }
 
+    .navbar-toggle{
+        margin-top: -40px;
+    }
 
+    .navbar-toggle span{
+        background-color: #008cff ;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    img{
+        margin-top: 20px;
+    }
+
+    .footer-bot h4{
+        margin-top: 50px;
+    }
+
+    .carousel{
+        max-width: 100%;
+        margin: auto;
+        padding:0 100px;
+    }
+
+    .carousel-control{
+        display: none;
+    }
+
+    .panel-main-bot{
+        max-width:100%;
+        margin-top: 50px;
+        padding:10px 0 10px 0;
+    }
+
+    #logo-rocker{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .panel-main-bot p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .row{
+        width: auto;
+    }
+
+    .center-container{
+        width: 100%;
+    }
+
+    .navbar-toggle{
+        margin-top: -40px;
+    }
+
+    .navbar-toggle span{
+        background-color: #008cff ;
+    }
+}
