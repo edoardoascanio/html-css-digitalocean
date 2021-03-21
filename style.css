@@ -222,7 +222,7 @@ main p{
     padding: 10px;
     margin-right: 20px;
     background-color:white;
-    border-bottom-left-radius:  1px solid grey;
+    border-bottom: 1px solid grey;
     position: relative;
 }
 
