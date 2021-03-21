@@ -21,7 +21,7 @@
 .sign-btn{
     border: 1px solid #008cff;
     color: #008cff;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 section{
@@ -163,11 +163,7 @@ main p{
 }
 
 .footer-bot{
-    width: 100%;
     background-color:#01163b;
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .footer-bot span,.footer-bot p{
@@ -188,13 +184,14 @@ main p{
     line-height: 15px;
 }
 
-.footer-btn{
-    /* position: fixed; */
-    z-index: 2;
+.fixed-btn{
+    position: fixed;
+    z-index: 1;
 }
 
 .shark-button{
-    float: right;
+    margin-top: 160px;
+    margin-left: 160px;
 }
 
 .shark-icon{
@@ -220,18 +217,19 @@ main p{
 
 .speech{
     display: inline-block;
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
     padding: 10px;
     margin-right: 20px;
-    background-color:lightgrey;
-    box-shadow: 1px solid black;
+    background-color:white;
+    border-bottom-left-radius:  1px solid grey;
     position: relative;
 }
 
 .glyphicon-triangle-right{
-    color: white;
+    color:white;
     position: absolute;
+    top: 40px;
     right:-10px;
 }
 
